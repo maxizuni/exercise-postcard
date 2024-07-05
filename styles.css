@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+	min-height: 10px;
+}
+body {
+	background: black;
+	font-family: "Shantell Sans", cursive;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	overflow: hidden;
+}
+.postcard-header {
+	display: flex;
+	margin: 0 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+.postcard-header h1 {
+	width: 90%;
+	height: 50px;
+	font-weight: 300;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid gray;
+	font-family: "Shantell Sans", cursive;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: lightgray;
+	padding: 3px 8px;
+	border-radius: 0;
+	border: 1px solid;
+	font-family: "Shantell Sans", cursive;
+}
+button:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+button:active {
+	background-color: lightgray;
+}
